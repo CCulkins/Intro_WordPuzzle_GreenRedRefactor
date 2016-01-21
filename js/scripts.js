@@ -8,8 +8,11 @@ $(document).ready(function() {
 
 
   $('form#forma').submit(function(event) {
-    var stringToPuzzle = $('input#word').val();
+
+    var stringToPuzzle = $('textarea#word').val();
     var puzzled = switchLetter(stringToPuzzle);
+    $('div.jumbotron').toggle();
+    $('div.output').toggle();
     $('span.puzzle').text(puzzled);
 
   event.preventDefault();

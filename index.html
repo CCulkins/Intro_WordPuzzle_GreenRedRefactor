@@ -9,15 +9,17 @@
     <title>Word Puzzle</title>
   </head>
   <body>
-    <h1>Word Puzzle</h1>
-    <h4>This program changes anything you write into a challenging word puzzle! Try it now!</h4>
-    <form id="forma">
-      <div class="form-group">
-        <label for="word">Enter text here.</label>
-        <input id="word" type="Text" class="form-control" placeholder="text here to puzzlify" rows="10" cols="40">
-        <button type="submit" class="btn btn-default">Puzzlify!</button>
-      </div>
-    </form>
+    <div class="jumbotron">
+      <h1>Word Puzzle</h1>
+      <h4>This program changes anything you write into a challenging word puzzle! Try it now!</h4>
+      <form id="forma">
+        <div class="form-group">
+          <label for="word">Enter text here.</label>
+          <textarea id="word" type="Text" class="form-control" placeholder="text here to puzzlify" rows="10" cols="40"></textarea>
+          <button type="submit" class="btn btn-default">Puzzlify!</button>
+        </div>
+      </form>
+    </div>
     <div class="output">
       <p><span class="puzzle"></span></p>
     </div>

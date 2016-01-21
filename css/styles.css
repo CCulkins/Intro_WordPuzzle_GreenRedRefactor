@@ -7,9 +7,20 @@
 }*/
 
 div.output {
+  display: none;
   background-color: teal;
-  width: 500px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%x;
   height: 200px;
   padding: 15px;
   color: white;
+  font-size: 1.8em;
+  text-align: center;
+}
+.jumbotron {
+  margin-left: 20px;
+  margin-right:20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }

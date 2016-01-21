@@ -1,0 +1,15 @@
+/*div {
+
+  background-color: teal;
+  width: 500px;
+  height: 200px;
+  padding: 15px;
+}*/
+
+div.output {
+  background-color: teal;
+  width: 500px;
+  height: 200px;
+  padding: 15px;
+  color: white;
+}
